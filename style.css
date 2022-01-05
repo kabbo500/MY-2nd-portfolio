@@ -1,0 +1,24 @@
+.myself{
+    background-color: aqua;
+    display: flex;
+}
+h1{
+font-size: 40px;
+}
+.myname{
+    color: orange;
+}
+.first{
+    width: 50%;
+    margin-left: 10%;
+}
+#hire-me{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 5px 30px;
+    border-radius: 5px;
+
+}
+.first img{
+    width: 300px;
+}
