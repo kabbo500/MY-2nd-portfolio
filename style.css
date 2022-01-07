@@ -1,9 +1,10 @@
 .myself{
     background-color: aqua;
     display: flex;
+    
 }
 h1{
-font-size: 40px;
+font-size: 70px;
 }
 .myname{
     color: orange;
@@ -11,6 +12,8 @@ font-size: 40px;
 .first{
     width: 50%;
     margin-left: 10%;
+    font-size: 40px;
+    padding-bottom: 20px;
 }
 #hire-me{
     text-decoration: none;
@@ -20,23 +23,36 @@ font-size: 40px;
 
 }
 .first img{
-    width: 300px;
+    width: 100%
 }
-.after{
+.experiences{
     background-color: khaki;
+    background-image: url(shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
-.parent{
+.second-part{
     display: flex;
 }
-.second{
+.my-experiences{
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
 }
-.second img{
+.my-experiences img{
     width: 100%;
 }
 #book{
-    padding-left: 20px;
+    padding: 20px;
     box-shadow: 10px 10px 40px gray;
+    text-align: justify;
+    font-size: 40px;
+}
+.services{
+    display: flex;
+    margin-top: 20px;
+}
+.all-services{
+    width: 30%;
+    margin-left: 10px;
 }
